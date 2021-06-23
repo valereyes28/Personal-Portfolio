@@ -186,8 +186,21 @@ li {
 
 /* Media Queries */
 @media only screen and (max-width:768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    margin-top: 3%;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
   .row {
     display: flex;
     flex-direction: column;
   }
 }
+
